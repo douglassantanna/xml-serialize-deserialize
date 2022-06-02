@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPessoa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Pessoa>
+        <Nome>Douglas</Nome>
+        <Email>douglas@douglas.com</Email>
+        <Idade>28</Idade>
+        <DataCadastro>2022-06-02T15:17:46.9456771-03:00</DataCadastro>
+        <Ativo>true</Ativo>
+    </Pessoa>
+    <Pessoa>
+        <Nome>Davi</Nome>
+        <Email>davi@davi.com</Email>
+        <Idade>9</Idade>
+        <DataCadastro>2022-06-02T15:17:46.9576066-03:00</DataCadastro>
+        <Ativo>true</Ativo>
+    </Pessoa>
+    <Pessoa>
+        <Nome>João</Nome>
+        <Email>joao@joao.com</Email>
+        <Idade>54</Idade>
+        <DataCadastro>2022-06-02T15:17:46.9576076-03:00</DataCadastro>
+        <Ativo>true</Ativo>
+    </Pessoa>
+    <Pessoa>
+        <Nome>Eliane</Nome>
+        <Email>eliane@eliane.com</Email>
+        <Idade>50</Idade>
+        <DataCadastro>2022-06-02T15:17:46.9576078-03:00</DataCadastro>
+        <Ativo>true</Ativo>
+    </Pessoa>
+</ArrayOfPessoa>

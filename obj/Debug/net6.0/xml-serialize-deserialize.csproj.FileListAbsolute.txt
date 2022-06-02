@@ -1,0 +1,15 @@
+C:\Clouddata\POCS\xml-serialize-deserialize\bin\Debug\net6.0\xml-serialize-deserialize.exe
+C:\Clouddata\POCS\xml-serialize-deserialize\bin\Debug\net6.0\xml-serialize-deserialize.deps.json
+C:\Clouddata\POCS\xml-serialize-deserialize\bin\Debug\net6.0\xml-serialize-deserialize.runtimeconfig.json
+C:\Clouddata\POCS\xml-serialize-deserialize\bin\Debug\net6.0\xml-serialize-deserialize.dll
+C:\Clouddata\POCS\xml-serialize-deserialize\bin\Debug\net6.0\xml-serialize-deserialize.pdb
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.csproj.AssemblyReference.cache
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.AssemblyInfoInputs.cache
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.AssemblyInfo.cs
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.csproj.CoreCompileInputs.cache
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.dll
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\refint\xml-serialize-deserialize.dll
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.pdb
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\xml-serialize-deserialize.genruntimeconfig.cache
+C:\Clouddata\POCS\xml-serialize-deserialize\obj\Debug\net6.0\ref\xml-serialize-deserialize.dll
