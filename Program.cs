@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 using System.Xml.Serialization;
 using xml_serialize_deserialize;
 
@@ -8,13 +9,11 @@ namespace Client
     {
         public static void Main(string[] args)
         {
-            // DeserializeXmlFileToObject();
-            // DeserializeXmlFileToList();
+            DeserializeXmlFileToObject();
             // DeserializeXmlFileToList();
             // SerializeListToXmlFile();
             // SerializeObjectToXmlFile();
-            SerializeObjectToXmlString();
-            // Console.ReadKey();
+            // SerializeObjectToXmlString();
         }
         private static void SerializeObjectToXmlString()
         {
@@ -110,7 +109,10 @@ namespace Client
             var xmlSerializer = new XmlSerializer(typeof(List<Pessoa>));
             using (var reader = new StreamReader(@"C:\Clouddata\POCS\xml-serialize-deserialize\arquivos-xml\exemplo02.xml"))
             {
-                var pessoas = (List<Pessoa>)xmlSerializer.Deserialize(reader);
+                var xmlToList = (List<Pessoa>)xmlSerializer.Deserialize(reader);
+                var objectToJson = JsonSerializer.Serialize<List<Pessoa>>(xmlToList, new JsonSerializerOptions { WriteIndented = true });
+                System.Console.WriteLine(objectToJson);
+                System.Console.WriteLine("Process completed.");
             }
         }
         private static void DeserializeXmlFileToObject()
@@ -118,7 +120,10 @@ namespace Client
             var xmlSerializer = new XmlSerializer(typeof(Pessoa));
             using (var reader = new StreamReader(@"C:\Clouddata\POCS\xml-serialize-deserialize\arquivos-xml\exemplo01.xml"))
             {
-                var pessoas = (Pessoa)xmlSerializer.Deserialize(reader);
+                var xmlToObject = (Pessoa)xmlSerializer.Deserialize(reader);
+                var objectToJson = JsonSerializer.Serialize<Pessoa>(xmlToObject, new JsonSerializerOptions { WriteIndented = true });
+                System.Console.WriteLine(objectToJson);
+                System.Console.WriteLine("Process complete.");
             }
         }
     }
